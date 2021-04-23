@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="FRTF20blueliningmaxIV" type="demo.py" name="demo">
+    </node>
+</launch>

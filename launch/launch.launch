@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="FRTF20blueliningmaxIV" type="main.py" name="main">
+    </node>
+    <node pkg="FRTF20blueliningmaxIV" type="laser_service.py" name="laser_service">
+    </node>
+    <node pkg="FRTF20blueliningmaxIV" type="action_service.py" name="action_service">
+    </node>
+</launch>
